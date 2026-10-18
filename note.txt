@@ -1,0 +1,12 @@
+basic: git, curl, wget, unzip, zip, tar, ca-certificates, openssh-client, openssh-server, zsh, stow
+C/C++: build-essential, cmake, gdb, ninja-build, valgrind, cppcheck, clang, clangd, clang-format, clang-tidy, pkg-config, ccache
+QT: libxcb-cursor0, libxcb-cursor-dev, libgl1-mesa-dev ,mesa-common-dev, mesa-utils libglu1-mesa-dev libglew-dev libglfw3-dev libglm-dev libao-dev libmpg123-dev freeglut3-dev
+utilities: open-vm-tools, open-vm-tools-desktop, htop, ibus-unikey, ripgrep, fd-find, fzf, tree, qpdfview, fastfetch
+Unit Test: libgtest-dev catch2
+Office: libreoffice-calc
+
+Note: 
+ibus-unikey -> ibus restart 
+openssh-server -> sudo systemctl start ssh -> sudo systemctl enable ssh
+qpdfview -> xdg-mime default qpdfview.desktop application/pdf
+Done -> sudo apt update -> sudo apt upgrade
