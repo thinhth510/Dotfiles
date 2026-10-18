@@ -27,7 +27,7 @@ This repository focuses on terminal tooling, Zsh configuration with auto-suggest
 
 ```bash
 # 1. Clone the repository
-git clone https://github.com/your-username/dotfiles.git ~/dotfiles
+git clone https://github.com/thinhth510/dotfiles.git ~/dotfiles
 cd ~/dotfiles
 
 # 2. Grant execution permissions to scripts
